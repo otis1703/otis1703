@@ -1,0 +1,383 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: white;
+   
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(../Font/UVNHuongQue_N.TTF);
+}
+
+body {
+    background-image: url("../image/food/hand-drawn-vector-seamless-fast-food-pattern-sketch-doodle-elements-can-be-used-wallpaper-website-background-wrapping-79399570.jpg");
+}
+
+div.avar img {
+    border-radius: 50%;
+}
+
+
+.f-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+.col20 {
+    width: 20%;
+}
+.col30 {
+    width: 30%;
+}
+.col60 {
+    width: 60%;
+}
+
+.col40 {
+    width: 40%;
+}
+
+nav > ul.menu {
+    display: flex;
+    
+}
+
+nav img {
+    width: 15%;
+    height: 15%;
+}
+
+nav {
+    background-color: rgb(223, 70, 10);
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav > ul.menu > li {
+    width: 24%;
+    text-align: center;
+    border-right: 1px solid white;
+    position: relative;
+}
+
+ul.menu > li > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.menu {
+    display: none;
+    background-color: #CC3300 !important;
+    width: 100%;
+    z-index: 999;
+}
+
+.submenu::after {
+    content: " ";
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent transparent #CC3300 transparent;
+    position:absolute;
+    bottom: 100%;
+    left: 45%;
+}
+
+.fmenu:hover .submenu {
+    display: block;
+    position: absolute;
+}
+
+ul.submenu > li > a:hover {
+    background-color: orange;
+}
+
+
+nav > ul.menu > li > a:hover {
+    background-color: orange;
+}
+
+ul.menu > li > a > span {
+    display: block;
+}
+
+span {
+    display: block;
+}
+
+footer {
+    background: linear-gradient(red,yellow);
+    width: 60%;
+    margin: 5px auto;
+}
+
+#demo {
+    width: 80%;
+    height: 100%;
+    margin: 5px auto;
+}
+
+.dong {
+    list-style-type: none;
+}
+
+.i4 > h2 {
+    padding: 5px;
+    left: 20px;
+}
+
+div.carousel-item img{
+    width: 100%;    
+}
+
+
+div.sp {
+    width: 23%;
+    margin: 1%;
+    padding: 10px;
+    display: block;
+    border-radius: 1.5em;
+    background-color: rgb(235, 76, 23);
+    
+
+}
+
+div.sp1 {
+    width: 23%;
+    margin: 1%;
+    padding: 10px;
+    display: block;
+    border-radius: 1.5em;
+    background-color: darksalmon;
+    
+
+}
+
+div.sp2 {
+    width: 23%;
+    margin: 1%;
+    padding: 10px;
+    display: block;
+    border-radius: 1.5em;
+    background-color: rgb(82, 207, 211);
+    
+
+}
+
+div.sp3 {
+    width: 23%;
+    margin: 1%;
+    padding: 10px;
+    display: block;
+    border-radius: 1.5em;
+    background-color: rgb(74, 238, 156);
+    
+
+}
+
+div.sp:hover {
+    overflow: hidden;
+    transform: scale(1.05);
+}
+div.sp1:hover {
+    overflow: hidden;
+    transform: scale(1.05);
+}
+div.sp2:hover {
+    overflow: hidden;
+    transform: scale(1.05);
+}
+div.sp3:hover {
+    overflow: hidden;
+    transform: scale(1.05);
+}
+
+.sp > img {
+    width: 100%;
+    border-radius: 1.5em;
+}
+.sp1 > img {
+    width: 100%;
+    border-radius: 1.5em;
+}
+.sp2 > img {
+    width: 100%;
+    border-radius: 1.5em;
+}
+.sp3 > img {
+    width: 100%;
+    border-radius: 1.5em;
+}
+
+.btn {
+    background-color: red;
+    border-radius: 10px;
+   
+    
+}
+
+div.btn > a{
+    align-items: center;
+    color: white;
+}
+
+div.btn:hover {
+    background-color: tomato;
+    text-decoration: none;
+}
+
+h1.subject {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-family: myfont;
+}
+
+h1.subject::after {
+    content: "---";
+    display: block;
+    font-size: 1.5rem;
+}
+
+div.price > h5{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+
+
+
+
+li.i4item {
+    display: block;
+}
+
+div.i4item div {
+    width: 33%;
+}
+
+div.i4item > div > a  img {
+    max-width: 100%;
+}
+
+section.i4 {
+    padding: 2%;
+    align-items:stretch !important;
+    border-bottom: 3px solid black;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+section.i4 > div > a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+section.i4 > div > p {
+    color: black !important;
+
+}
+input[type=text] {
+    color: black !important;
+}
+
+div.col40 {
+    right: 0%;
+}
+
+#gototop img {
+    border-radius: 50%;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    z-index: 10;
+    width: 6%;
+   
+}
+.food_items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.food_item {
+    
+    padding: 5px;
+    width: 25%;;
+    background-color: darksalmon;
+    border-radius: 5%;
+    
+}
+.sp > img {
+    position: relative;
+    margin: 1px auto;
+    max-width: 100%;
+    height:200px;
+    display: block;
+}
+.sp:hover {
+    transform: scale(1.1);
+    border: rgb(223, 70, 10);
+}
+.food_price {
+    display: flex;
+}
+.food_price > span {
+    padding-left: 10%;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.food_price > em {
+    padding-right: 30%;
+}
+.buy_button {
+    border-radius: 5%;
+    top: auto;
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    
+    
+    width:60%;
+    background-color: #CC3300;
+    color:rgb(255, 255, 255);
+}
+
+div#buyId{
+    display: block;
+    width: 80%;
+    position: absolute;
+}
+.error {
+    border: 1px solid red;
+    }
+@media screen and (max-width: 1000px){
+    .home, .sale, .menu, .order, .contact{
+        float: none;
+        width: 100%;
+    }
+    section.container {
+        height: 300px;
+    }
+
+}
+    

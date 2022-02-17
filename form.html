@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content="1800">
+        <title>FFOOD</title>
+        
+        <link href="image/haha.png" rel="shortcut icon"/>
+        <link href="CSS/BTL.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="JS/jquery-3.6.0.min.js"></script>
+        <script src="JS/BTL.js"></script>
+    </head>
+    <body>
+        <section class="container f-flex" style="background-image:url(image/nice.jpg); width: 100%; ">
+            <div class="col20 avar"><img src="image/haha.png"></div>
+            <div class="col40">
+                <input id="searchi4" type="text" placeholder="Nhap mon an"/>
+                <input id="btnsearch" class="btn" type="button" value="TÌM KIẾM"/>
+            </div>
+
+        </section>
+        <a href="#" id="gototop"><img src="image/food/png-transparent-salt-lake-city-pinot-noir-wine-germantown-chardonnay-small-top-button-text-logo-button-vector.jpg" alt="button"/></a>
+        <nav class="container" id="header">
+            <ul class="menu">
+                <li class="home">
+                    <a href="BTL.html" class="active">
+                        <img src="image/home.png" alt="home" />
+                        <span>Trang chủ</span>
+                    </a>
+                </li>
+                <li class="sale">
+                    <a href="BTL.html">
+                        <img src="image/images.png" alt="home" />
+                        <span>KHUYẾN MÃI</span>
+                    </a>
+                </li>
+                
+                <li class="fmenu">
+                    <a href="BTL.html">
+                        <img src="image/images.jfif" alt="home" />
+                        <span>Menu</span>
+                    </a>
+                    <ul class="submenu menu">
+                        <li><a href="#food">THỨC ĂN</a></li>
+                        <li><a href="#drink">ĐỒ UỐNG</a></li>
+                        <li><a href="#material">NGUYÊN LIỆU</a></li>
+                    </ul>
+                </li>
+                <li class="order">
+                    <a href="form.html">
+                        <img src="image/tải xuống.png" alt="home" />
+                        <span>GIO HANG</span>
+                    </a>
+                </li>
+                <li class="contact">
+                    <a href="#">
+                        <img src="image/tải xuống.png" alt="home" />
+                        <span>LIÊN HỆ</span>
+                    </a>
+                </li>
+               
+            </ul>
+           
+        </nav>
+        <br>
+        <div class="container" style="width: 100%;">
+        <div id="buyid"  style="background-color: rgb(248, 131, 64); display: flex;">
+            <div class="col40 ">
+                    <h2 style="text-align: center;">ĐƠN HÀNG CỦA BẠN</h2><br/>
+
+            </div>
+            <div class = "col60">
+                <br>
+                <h2 style="text-align: center; font-weight: bold;">VUI LÒNG NHẬP THÔNG TIN CỦA BẠN</h2> <br>
+                <div class="form_items">
+                    <form action="form.html" id="form" method="post">
+                        <div class="form-label-group">
+                            <input type="text" name="name" id="inputName" class="form-control" placeholder="Họ Và Tên" value="">
+                        </div>
+                        <br>
+                        <div class="form-label-group">
+                            <input type="text" name="phone" id="inputPhone" maxlength="10" class="form-control" placeholder="Điện Thoại" value="">
+                        </div>
+                        <br>
+                        <div class="form-label-group">
+                            <input type="text" name="name" id="inputEmail" class="form-control" placeholder="Email" value="">
+                        </div>
+                        <br>
+                        <div class="form-label-group">
+                            <input type="text" name="name" id="inputAddress" class="form-control" placeholder="Số nhà, đường, tỉnh thành" value="">
+                        </div>
+                        <br>
+                        <input id="tienhanh" style="align-items: center;" class="btn" type="button" value="ĐẶT HÀNG"/>
+                        <br>
+                        
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <div class="giaodienmuahang" style="display: inline-block; text-align: right;" >
+            <button id="cong" type="button">+</button>  
+            <button id="tru" type="button">-</button>                      
+        </div>
+        <section class="container f-flex i4">
+            <div class="col20">
+                <a href="#">GIỚI THIỆU</a>
+            </div>
+            <div class="col20">
+                <a href="#">TUYỂN DỤNG</a>
+            </div>
+            <div class="col20">
+                <p>MẠNG XÃ HỘI</p>
+                <div class="f-flex i4item">
+                       <div><a class="i4link" href="https://www.facebook.com/phuvip.nguyen/" target="_blank"><img src="image/food/sp/facebook-logo.jpg"></a></div>
+                       <div><a class="i4link" href="https://www.instagram.com/doublenp.1703/" target="_blank"><img src="image/food/sp/logo-6060989_960_720.jpg"></a></div>
+                       <div><a class="i4link" href="https://www.youtube.com/channel/UC6fCd-RYt1dt5kwlcP9NqgA" target="_blank"><img src="image/food/sp/marketing-tren-youtube.jpg"></a></div>
+                </div>
+            </div>
+            <div class="col40">
+                <input type="text" placeholder="Nhập email"/>
+                <input class="btn" type="button" value="ĐĂNG KÍ"/>
+
+            </div>
+        </section>
+
+        <footer>
+            <div class="f-flex">
+                <div class="i4">
+                    <h2>HỆ THỐNG CỪA HÀNG THỨC ĂN NHANHH FFOOD</h2>
+                    
+                    <ul class="dong">
+                        <li>Địa chỉ: Bạch Đằng, phường 2, Tân Bình, thành phố Hồ Chí Minh</li>
+                        <li>Điện thoại: 08699133xxx</li>
+                        <li>Email: ngocphuzzzz@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
